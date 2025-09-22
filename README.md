@@ -48,8 +48,6 @@ Respuesta JSON (array) como:
           }
         ]
 
-## Problemas comunes
+## Nota:
 
-- **No conecta**: verifica que el backend esté activo; usa `10.0.2.2` (emulador) o la IP local (dispositivo).
-- **HTTP ≠ 2xx**: se muestra el código y el cuerpo de error.
-- **JSON distinto**: se imprime la respuesta cruda para diagnóstico.
+- El backend debe estar ejecutandose para poder hacer peticiones
